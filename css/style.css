@@ -1,0 +1,199 @@
+/* General Styling */
+body {
+    box-sizing: border-box;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e1ffff+0,e1ffff+7,e1ffff+12,e6f8fd+30,c8eefb+54,bee4f8+75,fdffff+95,fdffff+95,b1d8f5+100 */
+    background: rgb(225,255,255); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(225,255,255,1) 0%, rgba(225,255,255,1) 7%, rgba(225,255,255,1) 12%, rgba(230,248,253,1) 30%, rgba(200,238,251,1) 54%, rgba(190,228,248,1) 75%, rgba(253,255,255,1) 95%, rgba(253,255,255,1) 95%, rgba(177,216,245,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(253,255,255,1) 95%,rgba(253,255,255,1) 95%,rgba(177,216,245,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(230,248,253,1) 30%,rgba(200,238,251,1) 54%,rgba(190,228,248,1) 75%,rgba(253,255,255,1) 95%,rgba(253,255,255,1) 95%,rgba(177,216,245,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.center {
+    text-align: center;
+}
+
+h1, h2, h3, p {
+    font-family: 'Droid Sans', sans-serif;
+}
+/***************/
+/* Nav Section */
+/***************/
+
+
+nav {
+    width: 100%;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-img {
+    width: 200px;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desktop {
+    display: none;
+}
+
+.desktop-nav {
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.desktop-nav li {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.desktop-nav li a:hover {
+    text-decoration: none;
+    color: black;
+    transition: 1000ms;
+}
+
+.hamburger{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right:0;
+  line-height:45px;
+  color:#fff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; height: 200px; border-bottom:gray 0 solid; width:100%; background:#fff; text-align: center; position:absolute;}
+.menu ul {padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:17px 0 17px 0; border-bottom:gray 1px solid;}
+.menu li:hover{display: block;    background:#bdc3c7; padding:17px 0 17px 0; border-bottom:gray 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; padding: 0; color:gray;}
+.menu ul li a:hover {  color: #fff; text-decoration:none;}
+.menu a{text-decoration:none; color:white;}
+.menu a:hover{text-decoration:none; color:white;}
+
+
+/*******************/
+/* Header Section */
+/*******************/
+
+
+.masthead {
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(225,255,255);
+    opacity: .8;
+    border-top: 2px solid rgb(240,255,255);
+    border-bottom: 2px solid rgb(240,255,255);
+}
+
+.masthead-text {
+    padding-top: 15px;
+    font-weight: 800;
+    color: rgba(0,0,0,0.6);
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+    padding-bottom: 10px;
+}
+
+/*******************/
+/* Service Section */
+/*******************/
+
+.service-section {
+    width: 90%;
+}
+
+/* slider */
+.slider {
+    background-color: red;
+    display: none;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: #bdc3c7;
+}
+
+
+
+/*******************/
+/* Call-out Section */
+/*******************/
+
+.call-out {
+    margin-top: 20px;
+    height: 200px;
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    /* bottom, image */
+    url(../images/office_pic.jpg);
+    
+    background-size: cover;
+    -webkit-box-shadow: 0 7px 4px #777;
+	-moz-box-shadow: 0 7px 4px #777;
+	box-shadow: 0 7px 4px #777;
+}
+
+.call-out-text {
+    color: white;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.emerald-flat-button {
+  margin-top: 20px;
+  margin-left: 200px;
+  width: 140px;
+  height: 40px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #2ecc71;
+  border: 0;
+  border-bottom: 2px solid #28be68;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #28be68;
+  box-shadow: inset 0 -2px #28be68;
+}
+
+.about-section {
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+/******************/
+/* Footer Section */
+/******************/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #bdc3c7;
+    border-top: 1px solid #7f8c8d;
+}
+
+.footer-text {
+    padding-top: 10px;
+    font-size: 10px;
+}
