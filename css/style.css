@@ -31,6 +31,11 @@ nav {
 .logo-img {
     width: 200px;
     padding-top: 40px;
+}
+
+.mobile-logo-img {
+    width: 200px;
+    padding-top: 40px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -40,7 +45,6 @@ nav {
 }
 
 .desktop-nav {
-    position: relative;
     display: inline-block;
     margin-top: 100px;
 }
@@ -58,6 +62,10 @@ nav {
     text-decoration: none;
     color: black;
     transition: 1000ms;
+}
+
+button.hamburger {
+    background-color: black;
 }
 
 .hamburger{
@@ -120,7 +128,7 @@ nav {
 /* slider */
 .slider {
     background-color: red;
-    display: none;
+    visibility: hidden;
 }
 
 .slick-prev:before, .slick-next:before{
@@ -196,4 +204,101 @@ footer {
 .footer-text {
     padding-top: 10px;
     font-size: 10px;
+}
+
+
+
+/******************/
+/* Media Queries */
+/******************/
+
+
+@media screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+    
+    .desktop {
+        display: initial;
+    }
+    
+    .desktop-nav li {
+        font-size: 1em;
+    }
+    
+    .call-out {
+        text-align: center;
+    }
+    
+    .call-out-text {
+        margin-top: 50px;
+    }
+    
+    .emerald-flat-button {
+        margin-right: 200px;
+    }   
+}
+
+@media screen and (min-width: 1080px) {
+    .desktop-nav {
+        margin-left: 100px;
+    }
+    
+    .desktop-nav li {
+        font-size: 1.5em;
+    }
+    
+    .logo-img {
+        margin-left: 200px;
+    }
+    
+    .slider {
+        visibility: visible;
+    }
+    
+    .mobile-service {
+        display: none;
+    }
+    
+    .call-out {
+        margin-top: 50px;
+        height: 500px;
+        background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+        ),
+        /* bottom, image */
+        url(../images/office_pic_lg.jpg);
+        margin-top: 200px;
+    }
+    
+    .call-out-text {
+        font-size: 3em;
+        margin-top: 200px;
+    }
+    
+    .emerald-flat-button {
+        text-align: center;
+        width: 300px;
+        height: 100px;
+        margin-right: 200px;
+    }   
+}
+    
+
+@media screen and (min-width: 1400px) {
+    .desktop-nav {
+        margin-left: 250px;
+    }
+    
+    .desktop-nav li {
+        font-size: 2em;
+    }
+    
+    .logo-img {
+        width: 250px;
+    }
+    
 }
