@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(".slider").slick({
     centerMode: true,
-    centerPadding: '60px',
+    centerPadding: '20px',
     dots: true,
     /* Just changed this to get the bottom dots navigation */
     infinite: true,
