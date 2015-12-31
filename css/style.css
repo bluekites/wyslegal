@@ -16,6 +16,17 @@ body {
 h1, h2, h3, p {
     font-family: 'Droid Sans', sans-serif;
 }
+
+.contact-text {
+    font-size: 15px;  
+    vertical-align: 3px;
+}
+
+.glyphicon-envelope, .glyphicon-earphone {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
 /***************/
 /* Nav Section */
 /***************/
@@ -285,6 +296,10 @@ footer {
         height: 100px;
         margin-right: 200px;
     }   
+    
+    .footer-text {
+        font-size: 1em;
+    }
 }
     
 
