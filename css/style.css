@@ -142,8 +142,18 @@ button.hamburger {
     background: #348F50; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #348F50 , #56B4D3); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #348F50 , #56B4D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            
+    height: 200px;
+    padding-top: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
     visibility: hidden;
+}
+
+.slider-div a {
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 800;
+    color: #000;
 }
 
 .slick-prev:before, .slick-next:before{
@@ -311,7 +321,6 @@ footer {
         ),
         /* bottom, image */
         url(../images/office_pic_lg.jpg);
-        margin-top: 200px;
     }
     
     .call-out-text {
