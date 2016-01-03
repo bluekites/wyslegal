@@ -214,7 +214,6 @@ button.hamburger {
 }
 
 .short-intro {
-    
     text-align: center;
 }
 
@@ -270,8 +269,8 @@ footer {
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
-    height: 380px;
+    width: 300px;
+    height: 180px;
 }
 
 .contact-text {
@@ -323,6 +322,11 @@ footer {
     .emerald-flat-button {
         margin-right: 200px;
     }   
+    
+    #googleMap {
+        width: 500px;
+        height: 380px;
+    }
 }
 
 @media screen and (min-width: 1080px) {
