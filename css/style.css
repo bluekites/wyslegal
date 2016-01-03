@@ -14,10 +14,13 @@ body {
     text-align: center;
 }
 
-h1, h2, h3, p {
-    font-family: 'Droid Sans', sans-serif;
+h1, h2, h3 {
+    font-family: 'arial';
 }
 
+p {
+    font-family: sans-serif;
+}
 .contact-text {
     font-size: 15px;  
     vertical-align: 3px;
@@ -121,7 +124,6 @@ button.hamburger {
 }
 
 .masthead-text {
-    padding-top: 15px;
     font-weight: 800;
     color: rgba(0,0,0,0.6);
     text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
@@ -241,7 +243,7 @@ footer {
 /***********************/
 
 .about-masthead-text {
-    margin-top: 80px;
+
     font-weight: 800;
     color: rgba(0,0,0,0.6);
     text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
@@ -260,6 +262,34 @@ footer {
 }
 
 
+/***********************/
+/* CONTACT PAGE STYLING */
+/***********************/
+
+#googleMap {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 380px;
+}
+
+.contact-text {
+    width: 200px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-text p {
+    font-family: 'Droid-serif', serif;
+    font-weight: 700;
+    line-height: 10px;
+}
+
+.contact-text a {
+    vertical-align: bottom;
+}
 /******************/
 /* Media Queries */
 /******************/
@@ -271,7 +301,7 @@ footer {
     }
     
     .masthead {
-        padding-top: 30px;
+        padding-top: 40px;
     }
     
     .desktop {
@@ -318,7 +348,7 @@ footer {
     
     .call-out {
         margin-top: 50px;
-        height: 500px;
+        height: 450px;
         background:
         /* top, transparent black, faked with gradient */ 
         linear-gradient(
@@ -331,7 +361,7 @@ footer {
     
     .call-out-text {
         font-size: 3em;
-        margin-top: 200px;
+        margin-top: 150px;
     }
     
     .emerald-flat-button {
