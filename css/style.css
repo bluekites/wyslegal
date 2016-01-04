@@ -248,7 +248,7 @@ footer {
 }
 
 .about-masthead-text {
-
+    margin-top: 70px;
     font-weight: 800;
     color: rgba(0,0,0,0.6);
     text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
@@ -314,8 +314,8 @@ footer {
         display: none;
     }
     
-    .masthead {
-        padding-top: 40px;
+    .masthead-text {
+        margin-top: 50px;
     }
     
     .desktop {
