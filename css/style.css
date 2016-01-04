@@ -190,6 +190,7 @@ button.hamburger {
 }
 
 .call-out-text {
+    font-size: 25px;
     color: white;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
@@ -368,7 +369,7 @@ footer {
     
     .call-out {
         margin-top: 50px;
-        height: 450px;
+        height: 400px;
         background:
         /* top, transparent black, faked with gradient */ 
         linear-gradient(
@@ -381,7 +382,7 @@ footer {
     
     .call-out-text {
         font-size: 3em;
-        margin-top: 150px;
+        margin-top: 100px;
     }
     
     .emerald-flat-button {
