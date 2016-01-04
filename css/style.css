@@ -117,15 +117,16 @@ button.hamburger {
     height: 200px;
     margin-top: 20px;
     margin-bottom: 10px;
-    background-color: #3B6296;
+    background-color: #06307D;
     opacity: .8;
     border-top: 2px solid rgb(240,255,255);
     border-bottom: 2px solid rgb(240,255,255);
 }
 
 .masthead-text {
+    margin-top: 30px;
     font-weight: 800;
-    color: rgba(0,0,0,0.6);
+    color: #bdc3c7;
     text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
                  0px -5px 35px rgba(255,255,255,0.3);
     padding-bottom: 10px;
@@ -250,7 +251,7 @@ footer {
 .about-masthead-text {
     margin-top: 70px;
     font-weight: 800;
-    color: rgba(0,0,0,0.6);
+    color: #bdc3c7;
     text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
                  0px -5px 35px rgba(255,255,255,0.3);
     padding-bottom: 10px;
