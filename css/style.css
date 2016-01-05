@@ -165,7 +165,6 @@ button.hamburger {
     color: #2c3e50;
     padding-top: 10px;
     padding-left: 15px;
-    font-weight: 700;
 }
 
 .slick-prev:before, .slick-next:before{
@@ -324,7 +323,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 768px) {
     .mobile {
         display: none;
     }
@@ -405,7 +404,9 @@ footer {
         margin-left: 100px;
     }
     
-    
+    .slider-div ul {
+        font-weight: 700;
+    }
     
     .call-out {
         margin-top: 50px;
