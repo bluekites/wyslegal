@@ -381,7 +381,7 @@ footer {
     
     .about-section {
         margin-top: 50px;
-        height: 400px;
+        padding-bottom: 50px;
     }
     
     #googleMap {
