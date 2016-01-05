@@ -207,7 +207,7 @@ button.hamburger {
   margin-left: 200px;
   width: 140px;
   height: 40px;
-  padding: 0;
+  padding-top: 5px;
   font-size: 22px;
   color: white;
   text-align: center;
@@ -218,6 +218,17 @@ button.hamburger {
   cursor: pointer;
   -webkit-box-shadow: inset 0 -2px #28be68;
   box-shadow: inset 0 -2px #28be68;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+
+.emerald-flat-button:hover {
+    text-decoration: none;
+}
+
+.emerald-flat-button:visited {
+    text-decoration: none;
 }
 
 /******************/
@@ -381,6 +392,7 @@ footer {
     
     .about-section {
         margin-top: 50px;
+        height: 450px;
         padding-bottom: 50px;
     }
     
@@ -430,6 +442,7 @@ footer {
         text-align: center;
         width: 300px;
         height: 100px;
+        padding-top: 30px;
         margin-right: 200px;
     }   
     
@@ -445,15 +458,15 @@ footer {
     
     .profile-pic {
         display: inline-block;
-        width: 300px;
+        width: 200px;
         vertical-align: top;
     }
     
     .about-text {
         display: inline-block;
-        margin-top: 70px;
-        margin-left: 100px;
-        width: 45%;
+        width: 500px;
+        vertical-align: top;
+        margin-top: 0;
     }
 
 }
@@ -473,9 +486,6 @@ footer {
         margin-left: -100px;
     }
     
-    .about-text {
-        margin-top: 100px;   
-    }
     
     .about-text {
         margin-left: 150px;
