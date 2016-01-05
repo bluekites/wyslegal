@@ -145,13 +145,12 @@ button.hamburger {
 
 /* slider */
 .slider {
-    background-color: #999;
+    background-color: #bdc3c7;
     height: 200px;
     padding-top: 20px;
     padding-right: 20px;
     margin-top: 40px;
     border-radius: 5px;
-    opacity: 0.6;
     display: none;
 }
 
@@ -163,15 +162,15 @@ button.hamburger {
 }
 
 .slider-div ul {
-    color: white;
+    color: #2c3e50;
     padding-top: 10px;
     padding-left: 15px;
+    font-weight: 700;
 }
 
 .slick-prev:before, .slick-next:before{
-    color: #bdc3c7;
+    color: #2c3e50;
 }
-
 
 
 /*******************/
