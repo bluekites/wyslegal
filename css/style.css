@@ -163,6 +163,12 @@ button.hamburger {
     color: #000;
 }
 
+.slider-div ul {
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
 .slick-prev:before, .slick-next:before{
     color: #bdc3c7;
 }
@@ -215,10 +221,6 @@ button.hamburger {
   cursor: pointer;
   -webkit-box-shadow: inset 0 -2px #28be68;
   box-shadow: inset 0 -2px #28be68;
-}
-
-.short-intro {
-    text-align: center;
 }
 
 /******************/
