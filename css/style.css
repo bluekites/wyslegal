@@ -355,6 +355,14 @@ footer {
         font-size: 1em;
     }
     
+    .slider {
+        display: block;
+    }
+    
+    .mobile-service {
+        display: none;
+    }
+    
     .call-out {
         text-align: center;
     }
@@ -397,13 +405,7 @@ footer {
         margin-left: 100px;
     }
     
-    .slider {
-        display: block;
-    }
     
-    .mobile-service {
-        display: none;
-    }
     
     .call-out {
         margin-top: 50px;
