@@ -375,6 +375,11 @@ footer {
         float: right;
     }
     
+    .about-section {
+        margin-top: 50px;
+        height: 400px;
+    }
+    
     #googleMap {
         width: 500px;
         height: 380px;
