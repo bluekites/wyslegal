@@ -18,6 +18,11 @@ $(document).ready(function() {
     });
   });
   
+  // ADD SLIDEDOWN ANIMATION TO DROPDOWN //
+  $('.dropdown').on('click.bs.dropdown', function(e){
+    $(this).find('.dropdown-menu').slideToggle();
+  });
+
   
   function initialize() {
     var myCenter=new google.maps.LatLng(33.759753,-117.991321);

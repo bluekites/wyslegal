@@ -84,6 +84,34 @@ nav {
     transition: 1000ms;
 }
 
+.desktop-nav li a:link {
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+
+.dropdown-menu li {
+    display: block;
+    padding: 0;
+}
+
+.dropdown-menu li a {
+    display: block;
+    font-size: 10px;
+    width: 100%;
+    color: yellow;
+}
+
+.centerDropdown {
+    left: 50% !important;
+    margin-left: -70px;
+    text-align: center;
+}
+
+
 button.hamburger {
     background-color: black;
 }
@@ -108,9 +136,10 @@ button.hamburger {
 .menu li {display: block;   padding:17px 0 17px 0; border-bottom:gray 1px solid;}
 .menu li:hover{display: block;    background:#bdc3c7; padding:17px 0 17px 0; border-bottom:gray 1px solid;}
 .menu ul li a { text-decoration:none;  margin: 0px; padding: 0; color:gray;}
-.menu ul li a:hover {  color: #fff; text-decoration:none;}
+.menu ul li a:hover {  color: #000; background-color: #bdc3c7; text-decoration:none;}
 .menu a{text-decoration:none; color:white;}
 .menu a:hover{text-decoration:none; color:white;}
+
 
 
 /*******************/
