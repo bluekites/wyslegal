@@ -18,7 +18,7 @@ $(document).ready(function() {
     });
   });
   
-  // ADD SLIDEDOWN ANIMATION TO DROPDOWN //
+  // Submenu dropdown
   $('.dropdown').on('click.bs.dropdown', function(e){
     $(this).find('.dropdown-menu').slideToggle();
   });
