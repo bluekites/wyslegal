@@ -16,6 +16,7 @@ $(document).ready(function() {
   $(".hamburger").click(function() {
     $( ".menu" ).slideToggle( "slow", function() {
     });
+    $('.dropdown-menu').hide();
   });
   
   // Submenu dropdown
