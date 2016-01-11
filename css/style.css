@@ -140,7 +140,9 @@ button.hamburger {
 .menu a{text-decoration:none; color:white;}
 .menu a:hover{text-decoration:none; color:white;}
 
-
+a.active, .menu ul li a.active {
+    color: black;
+}
 
 /*******************/
 /* Header Section */
